@@ -604,7 +604,12 @@ div#site-header {
   border-bottom: 1px solid #B7B7B7; }
 
 div#site-header div.site-logo {
-  padding: 10px 20px; }
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px; }
+
+div#site-header div.site-logo span {
+  font-weight: 700; }
 
 @media only screen and (max-width: 769px) {
   div#site-header div.site-nav ul {
@@ -627,12 +632,17 @@ div#site-header div.site-logo {
 
 div#site-header div.site-nav ul li a {
   display: block;
-  padding: 10px 20px;
+  padding: 13px 20px 14px;
   border-bottom: none;
-  color: #090909; }
+  color: #090909;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase; }
 
 div#site-header div.site-nav ul li a:hover,
-div#site-header div.site-nav ul li a:focus,
+div#site-header div.site-nav ul li a:focus {
+  background: #B7B7B7; }
+
 div#site-header div.site-nav ul li a.cur {
   background: #3295FF;
   color: #FFF; }
@@ -642,9 +652,11 @@ div#site-header div.site-nav ul li a.cur {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 10px 20px;
+  padding: 14px 20px;
   border-left: 1px solid #B7B7B7;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 1; }
   @media only screen and (min-width: 770px) {
     #site-header .menu-label {
       display: none; } }
@@ -664,11 +676,13 @@ div#site-header div.site-nav ul li a.cur {
   color: #FFF; }
 
 .btn {
+  position: relative;
   display: inline-block;
   padding: 10px 20px;
   overflow: hidden;
   background: #47B442;
   border: none;
+  box-shadow: 0 4px 0 #3b9637;
   color: #FFF;
   cursor: pointer;
   font-size: 20px;
@@ -678,7 +692,12 @@ div#site-header div.site-nav ul li a.cur {
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
 
 button.btn {
   vertical-align: top; }
@@ -686,8 +705,9 @@ button.btn {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  background: #40a13b;
+  top: 2px;
   border: none;
+  box-shadow: 0 2px 0 #3b9637;
   color: #FFF; }
 
 .btn.block {
