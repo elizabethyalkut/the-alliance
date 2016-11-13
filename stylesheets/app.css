@@ -554,7 +554,7 @@ em {
   text-align: center; }
 
 a {
-  color: #3295FF;
+  color: #673AB7;
   border-bottom: 1px solid transparent;
   text-decoration: none;
   -webkit-transition: all 0.5s ease;
@@ -565,30 +565,30 @@ a {
 
 a:hover,
 a:focus {
-  border-bottom: 1px solid #3295FF; }
+  border-bottom: 1px solid #673AB7; }
 
 a.text {
   color: #090909; }
 
 a.text:hover,
 a.text:focus {
-  color: #3295FF; }
+  color: #673AB7; }
 
 a.tag {
   display: inline-block;
   padding: 0 5px;
-  background: #3295FF;
+  background: #673AB7;
   border: none;
   color: #FFF; }
 
 a.tag:hover,
 a.tag:focus {
-  background: #0076f4;
+  background: #512e90;
   border: none; }
 
 blockquote {
   padding-left: 20px;
-  border-left: 5px solid #3295FF;
+  border-left: 5px solid #673AB7;
   font-style: italic; }
 
 hr {
@@ -639,12 +639,12 @@ div#site-header div.site-nav ul li a {
 
 div#site-header div.site-nav ul li a:hover,
 div#site-header div.site-nav ul li a:focus {
-  border-bottom-color: #0076f4;
-  color: #0076f4; }
+  border-bottom-color: #512e90;
+  color: #512e90; }
 
 div#site-header div.site-nav ul li a.cur {
-  background: #3295FF;
-  border-bottom-color: #0076f4;
+  background: #673AB7;
+  border-bottom-color: #512e90;
   color: #FFF; }
 
 #site-header .menu-label {
@@ -653,8 +653,8 @@ div#site-header div.site-nav ul li a.cur {
   right: 0;
   top: 0;
   padding: 14px 20px 10px;
-  background: #3295FF;
-  border-bottom: 4px solid #0076f4;
+  background: #673AB7;
+  border-bottom: 4px solid #512e90;
   color: #FFF;
   cursor: pointer;
   font-size: 24px;
@@ -674,7 +674,7 @@ div#site-header div.site-nav ul li a.cur {
   display: block; }
 
 #menu-toggle:checked ~ .menu-label {
-  background: #0076f4;
+  background: #512e90;
   color: #FFF; }
 
 .btn {
@@ -682,9 +682,9 @@ div#site-header div.site-nav ul li a.cur {
   display: inline-block;
   padding: 10px 20px;
   overflow: hidden;
-  background: #47B442;
+  background: #1DA933;
   border: none;
-  box-shadow: 0 4px 0 #3b9637;
+  box-shadow: 0 4px 0 #178628;
   color: #FFF;
   cursor: pointer;
   font-size: 20px;
@@ -709,7 +709,7 @@ button.btn {
 .btn:active {
   top: 2px;
   border: none;
-  box-shadow: 0 2px 0 #3b9637;
+  box-shadow: 0 2px 0 #178628;
   color: #FFF; }
 
 .btn.block {
