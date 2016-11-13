@@ -501,14 +501,14 @@ body {
 
 @font-face {
   font-family: "Proxima Nova Condensed";
-  src: url("/the-alliance/fonts/proximanovacond-regular.eot");
-  src: url("/the-alliance/fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("/the-alliance/fonts/proximanovacond-regular.woff2") format("woff2"), url("/the-alliance/fonts/proximanovacond-regular.woff") format("woff"), url("/the-alliance/fonts/proximanovacond-regular.ttf") format("truetype");
+  src: url("../fonts/proximanovacond-regular.eot");
+  src: url("../fonts/proximanovacond-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-regular.woff2") format("woff2"), url("../fonts/proximanovacond-regular.woff") format("woff"), url("../fonts/proximanovacond-regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 @font-face {
   font-family: "Proxima Nova Condensed";
-  src: url("/the-alliance/fonts/proximanovacond-semibold.eot");
-  src: url("/the-alliance/fonts/proximanovacond-semibold.eot?#iefix") format("embedded-opentype"), url("/the-alliance/fonts/proximanovacond-semibold.woff2") format("woff2"), url("/the-alliance/fonts/proximanovacond-semibold.woff") format("woff"), url("/the-alliance/fonts/proximanovacond-semibold.ttf") format("truetype");
+  src: url("../fonts/proximanovacond-semibold.eot");
+  src: url("../fonts/proximanovacond-semibold.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanovacond-semibold.woff2") format("woff2"), url("../fonts/proximanovacond-semibold.woff") format("woff"), url("../fonts/proximanovacond-semibold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal; }
 body, select, input, textarea {
@@ -799,8 +799,8 @@ img {
 
 @font-face {
   font-family: 'icons';
-  src: url("/the-alliance/fonts/icons.eot");
-  src: url("/the-alliance/fonts/icons.eot?#iefix") format("embedded-opentype"), url("/the-alliance/fonts/icons.ttf") format("truetype"), url("/the-alliance/fonts/icons.woff") format("woff"), url("/the-alliance/fonts/icons.svg#icons") format("svg");
+  src: url("../fonts/icons.eot");
+  src: url("../fonts/icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons.ttf") format("truetype"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.svg#icons") format("svg");
   font-weight: normal;
   font-style: normal; }
 .icon {
