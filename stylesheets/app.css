@@ -761,6 +761,9 @@ img {
       padding-top: 60px;
       padding-bottom: 60px; } }
 
+.section.hero {
+  background: #FFF; }
+
 .mod {
   background: #FFF; }
 
