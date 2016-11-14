@@ -475,6 +475,9 @@ body {
   float: right;
   margin-left: 20px; }
 
+.push-top-quarter {
+  margin-top: 5px; }
+
 .push-top-half {
   margin-top: 10px; }
 
@@ -773,6 +776,22 @@ img {
   padding-left: 0; }
 
 .hoz li:last-of-type {
+  padding-right: 0; }
+
+.tags {
+  overflow: hidden;
+  list-style: none; }
+
+.tags li.label {
+  padding-right: 10px; }
+
+.tags li {
+  display: block;
+  float: left;
+  margin-top: 5px;
+  padding-right: 5px; }
+
+.tags li:last-of-type {
   padding-right: 0; }
 
 .section {
